@@ -1,0 +1,28 @@
+.diffNavbarPosition{
+    z-index: 1;
+    display: block;
+    position: fixed;
+    top: 180px;
+    right: -130px;
+    /* vertical-align: middle; /*Shouldn't be used with display: block; */
+    width: 270px;
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+    border: solid;
+}
+
+.diffNavbarPosition.hidden{
+    z-index: 1000;
+    display: block;
+    position: fixed;
+    top: 122px;
+    right: 0px;
+    /* vertical-align: middle; /*Shouldn't be used with display: block; */
+    z-index: 7;
+    position: fixed;
+    top: 160px;
+    right: -230px;
+    width: 270px;
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
